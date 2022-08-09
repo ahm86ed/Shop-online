@@ -1,0 +1,29 @@
+@import "./../../styles/variables.scss";
+
+header {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 5px $border-color;
+    align-items: center;
+
+    .title {
+        color: $secondary-color;
+        font-size: 45px;
+
+        svg {
+            color: $primary-color;
+        }
+        strong {
+            color: $primary-color;
+        }
+    }
+
+    .cart {
+        font-size: 25px;
+    }
+
+    .user {
+        font-size: 16px;
+    }
+}

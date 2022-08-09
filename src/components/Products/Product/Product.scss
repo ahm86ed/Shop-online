@@ -1,0 +1,20 @@
+@import "./../../../styles/variables.scss";
+
+.product-item {
+    margin: 10px;
+
+    .card-title {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        
+        img{
+            width: 200px;
+        }
+    }
+}
